@@ -1,4 +1,4 @@
-faiss-cpu==1.7.3
+faiss-cpu
 sentence-transformers
 langchain-experimental
 streamlit
