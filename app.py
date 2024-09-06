@@ -74,8 +74,8 @@ def load_embeddings(filename="embeddings.pkl"):
 
 # Load and process text files
 st.title("Système de Recherche Sémantique")
-txt_files = ["C:/Users/Administrateur/Desktop/Gpt/pdf1.txt",
-             "C:/Users/Administrateur/Desktop/Gpt/pdf2.txt"]
+txt_files = ["https://github.com/SAFAALHAKKAOUI/semantic_engine/blob/main/pdf1.txt",
+             "https://github.com/SAFAALHAKKAOUI/semantic_engine/blob/main/pdf2.txt"]
 
 with st.spinner("Traitement des fichiers..."):
     chunks, chunk_indices, doc_names = load_and_chunk_txt_files(txt_files)
