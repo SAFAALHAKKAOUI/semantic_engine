@@ -73,7 +73,7 @@ def load_embeddings(filename="embeddings.pkl"):
 
 
 # Load and process text files
-st.title("Système de Recherche Sémantique")
+st.title("Semantic Search Engine")
 # Obtenir le chemin absolu du fichier
 current_directory = os.path.dirname(os.path.abspath(__file__))
 txt_files = [os.path.join(current_directory, "dataa", "pdf1.txt"),
